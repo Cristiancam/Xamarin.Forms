@@ -72,5 +72,6 @@ using Xamarin.Forms.StyleSheets;
 [assembly: StyleProperty("font-size", typeof(IFontElement), nameof(FontElement.FontSizeProperty))]
 [assembly: StyleProperty("font-style", typeof(IFontElement), nameof(FontElement.FontAttributesProperty))]
 [assembly: StyleProperty("margin", typeof(View), nameof(View.MarginProperty))]
+[assembly: StyleProperty("opacity", typeof(VisualElement), nameof(VisualElement.OpacityProperty))]
 [assembly: StyleProperty("padding", typeof(IPaddingElement), nameof(PaddingElement.PaddingProperty))]
 [assembly: StyleProperty("visibility", typeof(VisualElement), nameof(VisualElement.IsVisibleProperty))]
